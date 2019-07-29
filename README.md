@@ -1,4 +1,5 @@
-# ProseMirror to HTML (JS)
+# HTML to Prosemirror
+ (JS)
 
 (This package is based on [html-to-prosemirror](https://github.com/scrumpy/html-to-prosemirror), which was originally written for PHP.)
 
