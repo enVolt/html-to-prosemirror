@@ -1,7 +1,7 @@
 # HTML to Prosemirror
  (JS)
 
-(This package is based on [html-to-prosemirror](https://github.com/scrumpy/html-to-prosemirror), which was originally written for PHP.)
+(This package is based on [html-to-prosemirror](https://github.com/ueberdosis/html-to-prosemirror), which was originally written for PHP.)
 
 Takes HTML and outputs ProseMirror JSON.
 
