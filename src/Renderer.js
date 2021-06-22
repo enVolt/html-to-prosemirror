@@ -80,7 +80,7 @@ class Renderer {
                 if (this.storedMarks.length) {
                     item = {
                         ...item,
-                        marks: this.storedMarks
+                        attrs: this.storedMarks
                     };
                     this.storedMarks = [];
                 }
