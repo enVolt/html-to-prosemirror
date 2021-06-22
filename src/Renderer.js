@@ -17,7 +17,8 @@ class Renderer {
             require("./Nodes/ListItem"),
             require("./Nodes/OrderedList"),
             require("./Nodes/Paragraph"),
-            require("./Nodes/Text")
+            require("./Nodes/Text"),
+            require("./Nodes/Span")
         ];
 
         this.marks = [
