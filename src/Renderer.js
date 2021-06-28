@@ -18,14 +18,26 @@ class Renderer {
             require("./Nodes/OrderedList"),
             require("./Nodes/Paragraph"),
             require("./Nodes/Text"),
-            require("./Nodes/Span")
+            require("./Nodes/Span"),
+            require("./Nodes/WrapperNode"),
+            require("./Nodes/Blockquote"),
+            require("./Nodes/HorizontalRule"),
+            require("./Nodes/Table"),
+            require("./Nodes/TableCell"),
+            require("./Nodes/TableHeader"),
+            require("./Nodes/TableRow"),
+            require("./Nodes/TableWrapper")
         ];
 
         this.marks = [
             require("./Marks/Bold"),
             require("./Marks/Code"),
             require("./Marks/Italic"),
-            require("./Marks/Link")
+            require("./Marks/Link"),
+            require("./Marks/Strike"),
+            require("./Marks/Subscript"),
+            require("./Marks/Superscript"),
+            require("./Marks/Underline")
         ];
     }
 
