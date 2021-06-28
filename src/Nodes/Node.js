@@ -10,7 +10,7 @@ class Node {
     }
 
     data () {
-        return [];
+        return {};
     }
 }
 
