@@ -7,7 +7,7 @@ class HardBreak extends Node {
 
     data () {
         return {
-            type: "hard_break"
+            type: "hardBreak"
         };
     }
 }

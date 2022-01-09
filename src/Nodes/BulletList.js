@@ -7,7 +7,7 @@ class BulletList extends Node {
 
     data () {
         return {
-            type: "bullet_list"
+            type: "bulletList"
         };
     }
 }

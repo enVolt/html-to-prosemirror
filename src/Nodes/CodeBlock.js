@@ -16,7 +16,7 @@ class CodeBlock extends Node {
 
         if (language) {
             return {
-                type: "code_block",
+                type: "codeBlock",
                 attrs: {
                     language
                 }
@@ -24,7 +24,7 @@ class CodeBlock extends Node {
         }
 
         return {
-            type: "code_block"
+            type: "codeBlock"
         };
     }
 }

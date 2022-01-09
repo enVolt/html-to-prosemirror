@@ -8,7 +8,7 @@ class OrderedList extends Node {
 
     data () {
         return {
-            type: "ordered_list",
+            type: "orderedList",
             attrs: {
                 order: 1
             }

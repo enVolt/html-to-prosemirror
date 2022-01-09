@@ -8,7 +8,7 @@ class TableHeader extends Node {
 
     data () {
         return {
-            type: 'table_header'
+            type: 'tableHeader'
         }
     }
 }

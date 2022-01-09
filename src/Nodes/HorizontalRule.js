@@ -8,7 +8,7 @@ class HorizontalRule extends Node {
 
     data () {
         return {
-            type: 'horizontal_rule'
+            type: 'horizontalRule'
         }
     }
 }

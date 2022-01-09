@@ -18,7 +18,7 @@ class TableCell extends Node {
         }
 
         return {
-            type: 'table_cell',
+            type: 'tableCell',
             attrs: {
                 ...attrs
             }
