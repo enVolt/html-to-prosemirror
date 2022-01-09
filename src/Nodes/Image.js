@@ -13,7 +13,8 @@ class Image extends Node {
                 src: this.DOMNode.getAttribute("src"),
                 class: this.DOMNode.getAttribute("class") || undefined,
                 alt: this.DOMNode.getAttribute("alt") || undefined,
-                title: this.DOMNode.getAttribute("title") || undefined
+                title: this.DOMNode.getAttribute("title") || undefined,
+                urlsrc: this.DOMNode.getAttribute("src"),
             }
         };
     }

@@ -8,7 +8,7 @@ class CodeBlock extends Node {
 
     getLanguage () {
         const language = this.DOMNode.getAttribute("class");
-        return language ? replace(/^language-/, "") : language;
+        return language ? language.replace(/^language-/, "") : language;
     }
 
     data () {

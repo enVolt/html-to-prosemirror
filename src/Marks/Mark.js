@@ -9,7 +9,7 @@ class Mark {
     }
 
     data () {
-        return [];
+        return {};
     }
 }
 
