@@ -26,7 +26,8 @@ class Renderer {
             require("./Nodes/TableCell"),
             require("./Nodes/TableHeader"),
             require("./Nodes/TableRow"),
-            require("./Nodes/TableWrapper")
+            require("./Nodes/TableWrapper"),
+            require("./Nodes/KatexInline")
         ];
 
         this.marks = [
