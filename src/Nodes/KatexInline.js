@@ -7,7 +7,7 @@ class KatexInline extends Node {
 
   data() {
     return {
-      type: "mathInline",
+      type: "math_inline",
       content: [
         {
           type: "text",
