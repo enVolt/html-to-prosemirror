@@ -1,5 +1,4 @@
 # HTML to Prosemirror
- (JS)我这个能用
 
 (This package is based on [html-to-prosemirror](https://github.com/ueberdosis/html-to-prosemirror), which was originally written for PHP.)
 
@@ -7,7 +6,7 @@ Takes HTML and outputs ProseMirror JSON.
 
 ## Installation
 ```bash
-npm install html-to-prosemirror --save
+yarn add @phxtho/html-to-prosemirror
 ```
 
 ## Usage
@@ -51,6 +50,7 @@ console.log(
 * ListItem
 * OrderedList
 * Paragraph
+* Katex
 
 ## Supported Marks
 

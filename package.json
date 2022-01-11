@@ -1,5 +1,5 @@
 {
-  "name": "html-to-prosemirror",
+  "name": "@phxtho/html-to-prosemirror",
   "version": "1.0.1",
   "description": "Takes HTML and outputs ProseMirror compatible JSON",
   "main": "index.js",
@@ -19,5 +19,16 @@
   "dependencies": {
     "html-minifier": "4.0.0",
     "jsdom": "15.1.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phxtho/html-to-prosemirror.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phxtho/html-to-prosemirror/issues"
+  },
+  "homepage": "https://github.com/phxtho/html-to-prosemirror#readme"
 }
