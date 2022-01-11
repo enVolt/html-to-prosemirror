@@ -6,7 +6,7 @@ Takes HTML and outputs ProseMirror JSON.
 
 ## Installation
 ```bash
-yarn add html-to-remirror
+yarn add https://github.com/phxtho/html-to-prosemirror
 ```
 
 ## Usage

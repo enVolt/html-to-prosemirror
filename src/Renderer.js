@@ -1,6 +1,4 @@
 const { JSDOM } = require("jsdom");
-const { minify } = require("html-minifier");
-const { htmlEntities, arrayify } = require("./utils");
 
 class Renderer {
   constructor() {
@@ -43,13 +41,7 @@ class Renderer {
   }
 
   setDocument(value) {
-    this.document = new JSDOM(this.stripWhitespace(value));
-  }
-
-  stripWhitespace(value) {
-    return minify(value, {
-      collapseWhitespace: true,
-    });
+    this.document = new JSDOM(value);
   }
 
   getDocumentBody() {

@@ -1,6 +1,6 @@
 {
-  "name": "html-to-remirror",
-  "version": "1.0.1",
+  "name": "html-to-prosemirror",
+  "version": "1.0.2",
   "description": "Takes HTML and outputs ProseMirror compatible JSON",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
     "mocha": "^9.1.3"
   },
   "dependencies": {
-    "html-minifier": "^4.0.0",
     "jsdom": "15.1.1"
   },
   "directories": {
