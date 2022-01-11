@@ -8,7 +8,12 @@ class KatexInline extends Node {
   data() {
     return {
       type: "mathInline",
-      content: this.DOMNode.getAttribute("src"),
+      content: [
+        {
+          type: "text",
+          text: this.DOMNode.getAttribute("src"),
+        },
+      ],
     };
   }
 }
