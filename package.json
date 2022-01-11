@@ -1,6 +1,6 @@
 {
   "name": "html-to-prosemirror",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Takes HTML and outputs ProseMirror compatible JSON",
   "main": "index.js",
   "scripts": {
