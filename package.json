@@ -1,5 +1,5 @@
 {
-  "name": "@phxtho/html-to-prosemirror",
+  "name": "html-to-remirror",
   "version": "1.0.1",
   "description": "Takes HTML and outputs ProseMirror compatible JSON",
   "main": "index.js",
