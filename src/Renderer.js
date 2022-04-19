@@ -1,5 +1,3 @@
-const { JSDOM } = require("jsdom");
-
 class Renderer {
   constructor() {
     this.document = undefined;
@@ -41,11 +39,11 @@ class Renderer {
   }
 
   setDocument(value) {
-    this.document = new JSDOM(value);
+    this.document = new DOMParser().parseFromString(value);
   }
 
   getDocumentBody() {
-    return this.document.window.document.querySelector("body");
+    return this.document.querySelector("body");
   }
 
   render(value) {
