@@ -39,7 +39,7 @@ class Renderer {
   }
 
   setDocument(value) {
-    this.document = new DOMParser().parseFromString(value);
+    this.document = new DOMParser().parseFromString(value, "text/html");
   }
 
   getDocumentBody() {
